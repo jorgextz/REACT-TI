@@ -1,0 +1,91 @@
+
+.footer {
+    display: flex;
+    background-color: var(--color-primario);
+    /* width: 100%;  */
+    position: relative;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.footer_derecha {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    gap: 50px;
+    
+}
+
+.derechos_de_autor {
+    font-weight: bold;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer_izquierda {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+   
+}
+
+@media (max-width: 850px) { 
+    .footer_izquierda {
+        gap: 0;
+    }
+
+    .footer {
+        align-items: center;
+        padding-top: 60px;
+    }
+}
+
+.footer_izquierda h4 {
+    font-weight: 300;
+    color: var(--color-de-fuente);
+    letter-spacing: .2rem;
+}
+
+.redes {
+    gap: 12px;
+    display: flex;
+}
+
+.redes img {
+    width: 50px;
+    height: 50px;
+    transition: transform(0.3s);
+}
+
+.redes img:hover {
+    transform: scale(1.2);
+}
+
+.info_contacto {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 850px) {
+    .info_contacto {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    .info_contacto p:nth-child(1){
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .info_contacto p:nth-child(2){
+        margin-top: 0;
+    }
+   
+}
