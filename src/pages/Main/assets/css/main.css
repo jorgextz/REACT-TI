@@ -2,6 +2,7 @@
     display: flex;
     background-image: url(../img/imagenfondo.png);
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     height: 90vh;
@@ -44,6 +45,9 @@ h1 {
     color: var(--color-de-fuente); 
     box-shadow: 5px 5px 5px black;
     font-size: clamp(0.5em,1.2vw,2vw);
+    position: relative;
+    top: -20px;
+    margin-top: 15px;
 
 }
  
@@ -62,6 +66,7 @@ h1 {
     width: 100%;
     justify-content: space-around;
     padding: 30px 0;
+    padding-top: 100px;
 }
 
 @media (max-width: 1350px) {
@@ -271,18 +276,12 @@ h1 {
     
 }
 
-
-
-
 .galery_img:hover {
     cursor: pointer;
     opacity: 1;
     width: 200px;
     
 }
-
-
-
 
 /* -------------FOOTER------------- */
 

@@ -1,0 +1,67 @@
+.containerDetalle {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dContainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    border: solid black 1px;
+}
+
+.dContainer img {
+    width: 100%;
+    height: 300px;
+    
+}
+
+.dContainer input{
+    font-size: 16px;
+}
+
+.dInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dInfo p{
+    padding: 7px 0;
+    margin: 0;
+}
+
+.d-btn {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    align-self: center;
+    border-radius: 20px;
+    padding: 6px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: rgba(0, 0, 0, 0.856);
+    border: none;
+    box-shadow: 3px 3px 0px black;
+    cursor: pointer;
+    background-color:chocolate;
+    margin-top: 20px;
+}
+
+.d-btn:hover {
+    color: black;
+    background-color: orange;
+}
+
+.dContainer input{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 300px;
+    align-self: center;
+}

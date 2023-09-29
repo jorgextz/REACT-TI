@@ -26,7 +26,7 @@ const Main = () => {
                     <h1>Parthenon</h1>
                     <p>Representa el espiritu deportivo que todos llevamos dentro, ven y alquila con nosotros!</p>
                 </div>
-                <a href="#paquetes" className="home_button">
+                <a href="#paquetes"  className="home_button">
                     <h2>Reserva Ya!</h2>
                 </a>
             </section>
@@ -38,15 +38,15 @@ const Main = () => {
                 </div>
                 <div className="paquetes-2">
                     <h2><strong>Alquila</strong> tu cancha en <strong>3</strong> simples <strong>pasos..</strong></h2>
-                    <div className="pasos paso1">
+                    <div className="pasos">
                         <img src={logoPaso1} alt="logo" />
                         <h3><strong>Selecciona</strong> el tipo de <strong>cancha</strong> que te guste</h3>
                     </div>
-                    <div className="pasos paso2">
+                    <div className="pasos">
                         <img src={logoPaso2} alt="logo" />
                         <h3><strong>Presionar Alquilar</strong> para acceder a los <strong>dias</strong> y <strong>horarios</strong> disponibles</h3>
                     </div>
-                    <div className="pasos paso3">
+                    <div className="pasos">
                         <img src={logoPaso3} alt="logo" />
                         <h3><strong>Selecciona</strong> el <strong>dia</strong> y la <strong>hora</strong> que quieras y <strong>paga</strong></h3>
                     </div>
@@ -54,7 +54,7 @@ const Main = () => {
 
             </section>
             {/* ---------- TERCERA SECTION ------------ */}
-            <article className="eventos">
+            <article id='NosotrosID' className="eventos">
                 <div className="eventos_title">
                     <h2>En <strong>Parthenon</strong> tenemos los espacios para todo tipo de <strong>eventos</strong>: </h2>
                 </div>

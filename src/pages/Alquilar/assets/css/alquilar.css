@@ -1,0 +1,113 @@
+.alquilar-container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+}
+.aNav{
+    display: flex;
+    justify-content: center;
+}
+
+.aNav input{
+    width: 30%;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+
+.canchaResults {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.canchaResults h2 {
+    align-self: center;
+    margin-bottom: 30px;
+}
+.rCard {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    /* border: solid black 1px; */
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: var(--color-secundario);
+    margin: 10px;
+}
+
+.rCard:hover {
+    transform: scale(1.05);
+    filter: brightness(1.08);
+    background-color: var(--color-primario);
+}
+
+.rCardImage{
+    width: 100%;
+    height: 45%;
+    
+}
+
+.rCardInfo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.rCardInfo p{
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn-rCard {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    align-self: center;
+    border-radius: 20px;
+    padding: 6px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: rgba(0, 0, 0, 0.856);
+    border: none;
+    box-shadow: 3px 3px 0px black;
+    cursor: pointer;
+    background-color: azure;
+}
+
+.btn-rCard:hover {
+    color: black;
+    background-color: chocolate;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.canchaTittle{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.aNav select{
+    font-size: 20px;
+}
+
+
+
